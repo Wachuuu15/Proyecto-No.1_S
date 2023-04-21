@@ -21,3 +21,23 @@
     opacity: 0.8;
     background-color: #EBD9C8;
 }
+
+.input-error{
+    width: 100px;
+    height: 35px;
+    border: 5px solid red;
+    color: red;
+    background: pink;
+    border-radius: 5px;
+    padding: 10px 80px;
+}
+
+.input-error::placeholder{
+    border-radius: 5px;
+    padding: 10px 80px;
+    width: 100px;
+    height: 35px;
+    color: pink;
+    opacity: 0.8;
+    background-color: pink;
+}
