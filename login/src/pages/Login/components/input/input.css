@@ -1,0 +1,23 @@
+.input-container{
+    width: 100px;
+}
+
+.regular-style{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px 80px;
+    box-sizing: content-box; /* ajusta el box-sizing */
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+    background-color: #EBD9C8;
+    border: none;
+}
+
+.regular-style::placeholder{
+    font-size: 14px;
+    color: gray;
+    opacity: 0.8;
+    background-color: #EBD9C8;
+}

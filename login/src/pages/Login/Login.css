@@ -1,0 +1,56 @@
+.login-container{
+    margin: 0 auto;
+    width: 95%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.imagen-formulario{
+    background-image: url('../../assets/images/Log.jpg');
+    background-position: center center;
+    background-size: cover;
+    flex: 0 0 calc(50%);
+    height: 287px;
+    position: relative;
+    padding: 180px 120px 180px 180px;
+}
+
+
+@media(min-width:1200px){
+    .imagen-formulario{
+        background-position: center;
+    }
+}
+.contenedor-general{
+    display: flex;
+}
+
+
+.login-container{
+    padding: 70px;
+    margin-top: 10%;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.submit-button{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 7px 120px;
+    border: none;
+    outline: none;
+    background-color: #003F5A;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
