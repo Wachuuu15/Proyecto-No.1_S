@@ -1,6 +1,8 @@
 .login-container{
     margin: 0 auto;
     width: 95%;
+    box-sizing: border-box;
+    
 }
 
 body{
@@ -26,7 +28,9 @@ body{
     }
 }
 .contenedor-general{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    width:100%; 
 }
 
 

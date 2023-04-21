@@ -7,7 +7,6 @@ import "../Login/components/input/input.css";
 
 
 const Login = ()=>{
-
     const[ Email, setEmail] = useState('');
     const[ Password, setPassword] = useState('');
     const[ PasswordError, setPasswordError ] = useState(false);
@@ -36,6 +35,8 @@ const Login = ()=>{
 
     return(
         <div className="contenedor-general">
+            <div className='imagen-formulario'/>
+
               <div className='login-container'>
                 <Title text='Log In'/>
                 <Label text='Email'/>
@@ -60,15 +61,15 @@ const Login = ()=>{
                 handleChange={handleChange}
                 param={PasswordError}
                 />
+
                <div className="button-container">
                <button onClick={(e) => handleSubmit()} className="submit-button">
                     Log in
                 </button>
                </div>
             </div>
-            <div className='imagen-formulario'>
 
-            </div> 
+            
         </div>
       
     )
