@@ -1,0 +1,21 @@
+.login-container{
+    margin: 0 auto;
+    width: 95%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.imagen-formulario{
+    background-image: url('../../assets/images/Sign.jpg');
+    background-position: center center;
+    flex: 0 0 calc(50%);
+    height: 287px;
+    position: relative;
+    padding: 180px 120px 180px 180px;
+}

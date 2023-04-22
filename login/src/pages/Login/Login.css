@@ -14,7 +14,6 @@ body{
 .imagen-formulario{
     background-image: url('../../assets/images/Log.jpg');
     background-position: center center;
-    background-size: cover;
     flex: 0 0 calc(50%);
     height: 287px;
     position: relative;
@@ -49,6 +48,7 @@ body{
 .submit-button{
     width: 90px;
     height: 40px;
+    box-sizing: border-box;
     border-radius: 5px;
     padding: 7px 120px;
     border: none;
